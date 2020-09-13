@@ -1,0 +1,18 @@
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-up-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.sign-up-form > * {
+  margin: 15px;
+}
