@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.button-container{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  &:hover{
+    background-color: #ffb74d;
+  }
+  &:active{
+    background-color: #ff9800;
+    transition: 0.1s;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

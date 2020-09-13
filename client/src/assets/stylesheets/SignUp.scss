@@ -3,16 +3,37 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  > *{
+    margin:10px
+  }
 }
 
 .sign-up-form {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 300px;
+  flex-direction: column;
+
+  .field-large, .field-small, .sign-up-form-action-buttons{
+    margin: 5px;
+  }
 }
 
-.sign-up-form > * {
-  margin: 15px;
+.sign-up-form-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form-action-buttons{
+  align-self: flex-end;
+}
+
+.field-small{
+  width:200px
+}
+
+.field-large{
+  width:410px;
 }
